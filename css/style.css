@@ -1,1 +1,31 @@
-font-family: 'Raleway', sans-serif;
+header {
+	color: #fff;
+	height: 112px;
+	line-height: 112px;
+}
+
+header a.logo {
+	float: left;
+}
+
+header nav {
+	float: right;
+	font-weight: bold;
+}
+
+header nav li {
+    padding-left: 30px;
+}
+
+header nav ul li a {
+	color: #fff;
+	transition: all 0.3s ease-in;
+	-webkittransition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+}
+
+header nav ul li a:hover, header nav ul li a:focus {
+	color: #e74c3c;
+	text-decoration: none;
+}
