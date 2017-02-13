@@ -12,7 +12,7 @@ jQuery(document).ready(function() {
             duration:500,
             pauseOnHover: true
         },
-        auto:true,
+        auto:false,
         items:{
             visible:{
                 min:1,
@@ -24,6 +24,19 @@ jQuery(document).ready(function() {
             container: ".sliderpager",
             anchorBuilder: false
         }
+    });
+
+    $(window).scroll(function() {
+
+        var top = $(window).scrollTop();
+        if(top >= 80) {
+            $("header").addClass("secondary-dark-blue-bg");
+        } else {
+        	if( $("header").hasClass("secondary-dark-blue-bg") ) {
+        		 $("header").removeClass("secondary-dark-blue-bg");
+        	}  
+        }
+    
     });
 
 });

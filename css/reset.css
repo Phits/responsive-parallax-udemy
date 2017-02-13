@@ -40,6 +40,9 @@ h3 {
 
 .secondary-dark-blue-bg {
 	background-color: #34495e;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
 }
 
 .secondary-sky-blue {
@@ -58,7 +61,7 @@ a:hover {
 	text-decoration: none;
 }
 
-ol, ul {
+ol, ul, menu, dir {
 	margin-bottom: 0;
 }
 

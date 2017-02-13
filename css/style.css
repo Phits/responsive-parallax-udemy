@@ -1,7 +1,10 @@
 header {
 	color: #fff;
 	height: 112px;
+	width: 100%;
 	line-height: 112px;
+	position: fixed;
+	z-index: 100;
 }
 
 header a.logo {
@@ -37,6 +40,7 @@ header nav ul li a:hover, header nav ul li a:focus {
 	width: 100%;
 	text-align: center;
 	color: #fff;
+	background-color: #000;
 }
 
 .slider ul.slider-carousel li h1 {
