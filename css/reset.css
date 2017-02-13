@@ -12,6 +12,7 @@ body {
 
 h1 {
 	font-size: 36px;
+	font-weight: bold;
 	color: #555;
 }
 
@@ -51,6 +52,14 @@ h3 {
 
 a:focus {
 	outline: 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ol, ul {
+	margin-bottom: 0;
 }
 
 ul {
