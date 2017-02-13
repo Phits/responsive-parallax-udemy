@@ -23,6 +23,7 @@ h2 {
 
 h3 {
 	font-size: 24px;
+	font-weight: bold;
 	color: #333;
 }
 
@@ -61,7 +62,7 @@ a:hover {
 	text-decoration: none;
 }
 
-ol, ul, menu, dir {
+ol, ul {
 	margin-bottom: 0;
 }
 
@@ -75,6 +76,10 @@ ul li {
 
 .section-padding {
 	padding: 56px 0;
+}
+
+.white {
+	color: #fff;
 }
 
 

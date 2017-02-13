@@ -26,6 +26,28 @@ jQuery(document).ready(function() {
         }
     });
 
+    $(".portfolio-carousel").carouFredSel({
+        
+        responsive:true,
+        width:'100%',
+        circular:true,
+        prev: "#prev",
+        next: "#next",
+        scroll:{
+            items:1,
+            duration:500,
+            pauseOnHover: true
+        },
+        auto:false,
+        items:{
+            visible:{
+                min:1,
+                max:4
+            },
+            height:"variable"
+        }
+    });
+
     $(window).scroll(function() {
 
         var top = $(window).scrollTop();
