@@ -112,10 +112,12 @@ header nav ul li a:hover, header nav ul li a:focus {
 	color: #555;
 }
 
-.services-header, .portfolio-header {
+.services-header, .portfolio-header, .team-header {
 	margin-bottom: 42px;
 	text-align: center;
 }
+
+/* Portfolio */
 
 .portfolio {
 /*    background-color: #eca331;*/
@@ -197,6 +199,114 @@ header nav ul li a:hover, header nav ul li a:focus {
 
 .portfolio .portfolio-nav span:hover {
 	background-color: #e74c3c;
+}
+
+/* Team */
+
+.team {
+    background-color: #fff;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.team .inner-content {
+	position: relative;
+	width: 265px;
+	height: 225px;
+	border: solid #fff 1px;
+}
+
+.team .inner-content img {
+	width: 100%;
+	height: 100%;
+}
+
+.team .inner-content .overlay-content {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+}
+
+
+.team .inner-content:hover .overlay-content {
+    top: 0;
+}
+
+
+.team .team-nav {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.team .team-nav span {
+	cursor: pointer;
+	margin-right: 10px;
+	padding: 5px 10px 6px 10px;
+	font-size: 14px;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	background-color: #333;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 5px;
+   -webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+}
+
+.team .team-nav span a {
+	color: #fff;
+}
+
+.team .team-nav span:hover {
+	background-color: #e74c3c;
+}
+
+.team-carousel .inner-content p.name {
+	padding-top: 15%;
+}
+
+.team-carousel .inner-content p.description{
+	padding: 0 15px;
+}
+
+ul.member-social-links li {
+	color: #fff;
+	font-size: 14px;
+   }
+
+ul.member-social-links li i {
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	margin: 0 10px;
+	border-radius: 5px;
+   -webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+}
+
+ul.member-social-links li a {
+	color: #fff;
+}
+
+ul.member-social-links li .fa-facebook {
+    background-color: #3b5998;
+}
+
+ul.member-social-links li .fa-twitter {
+    background-color: #00aced;
+}
+
+ul.member-social-links li .fa-linkedin {
+    background-color: #007bb6;
 }
 
 
