@@ -397,6 +397,49 @@ blockquote:after {
 	-o-transition: all 0.3s ease-in;
 }
 
+/* Contact */
+
+.contact {
+	background-color: #39787c;
+    background-image: url(../images/contact/contact-bg.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+	color: #fff;
+}
+
+form {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+input:not([type=submit]), textarea {
+	width: 100%;
+	margin-bottom: 40px;
+	color: #777;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3) inset;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+input:not([type=submit]){
+	height: 40px;
+	padding-left: 20px;
+	line-height: 40px;
+}
+
+textarea {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+#submit {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #ef743c;
+    border: none;
+}
+
 
 
 
