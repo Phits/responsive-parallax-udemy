@@ -407,7 +407,7 @@ blockquote:after {
 	color: #fff;
 }
 
-form {
+form.contact-form {
 	width: 50%;
 	margin: 0 auto;
 	text-align: center;
@@ -437,8 +437,118 @@ textarea {
     padding: 10px 20px;
     color: #fff;
     background-color: #ef743c;
+    font-weight: bold;
     border: none;
 }
+
+/* Footer */
+
+footer {
+	margin-top: 56px;
+}
+
+footer h1 {
+	padding-bottom: 28px;
+}
+
+footer p i {
+	color: #2d82db;
+}
+
+footer p span {
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+footer p.about {
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+form.update-form input:not([type=submit]), textarea {
+	width: 100%;
+	margin-bottom: 40px;
+	color: #777;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3) inset;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+#take-email {
+	margin-bottom: 20px;
+}
+
+#submit-button {
+	background-color: #ef743c;
+	color: #fff;
+	border: none;
+	padding: 0 30px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 30px;
+}
+
+footer .footer-social-links li {
+	padding: 0 10px;
+	font-size:  28px;
+}
+
+
+footer .footer-social-links li a {
+	color: #fff;
+}
+
+footer .footer-social-links li a i.fa-facebook {
+    color: #3b5998;
+}
+
+footer .footer-social-links li a i.fa-twitter {
+    color: #00aced;
+}
+
+footer .footer-social-links li a i.fa-linkedin {
+    color: #007bb6;
+}
+
+footer .footer-social-links li a i.fa-dribbble {
+    color: #3b5998;
+}
+
+footer .footer-social-links li a i.fa-youtube {
+    color: #bb0000;
+}
+
+.copyright {
+	text-align: center;
+	color: #fff;
+	background-color: #333;
+	height: 42px;
+	line-height: 42px;
+	margin-top: 56px;
+}
+
+.copyright p {
+	margin: 0 0;
+}
+
+footer p span.primary {
+	padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
