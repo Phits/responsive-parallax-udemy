@@ -112,7 +112,7 @@ header nav ul li a:hover, header nav ul li a:focus {
 	color: #555;
 }
 
-.services-header, .portfolio-header, .team-header {
+.services-header, .portfolio-header, .team-header, .testimonials-header {
 	margin-bottom: 42px;
 	text-align: center;
 }
@@ -309,9 +309,79 @@ ul.member-social-links li .fa-linkedin {
     background-color: #007bb6;
 }
 
+.testimonials {
+	background-color: #1c2731;
+	background-image: url(../images/testi/testi-bg.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	color: #fff;
+}
 
+.testimonial-carousel li {
+    text-align: center;
+    margin: 0 200px;
+}
 
+.testimonial-carousel img {
+    width: 150px;
+    height: 150px;
+	border-radius: 5px;
+   -webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+   margin-bottom: 30px;
+}
 
+.testimonial-carousel li p.name {
+    color: #ef4c3c;
+    font-weight: bold; 
+}
+
+.testimonial-carousel li p.position {
+    margin-bottom: 30px;
+    font-weight: bold; 
+}
+
+blockquote {
+	position: relative;
+	border: none;
+	line-height: 1.5em;
+	font-size: 14px;
+	color: #fff;
+	display: inline-block;
+	padding: 0 0;
+}
+
+blockquote:before {
+    position: absolute;
+    content: "\f10d";
+    top: -5pxpx;
+    left: -20px;
+    font-family: fontAwesome;
+}
+
+blockquote:after {
+    position: absolute;
+    content: "\f10e";
+    bottom: -5px;
+    right: -20px;
+    font-family: fontAwesome;
+}
+
+.testipage li {
+    margin-right: 5px;
+}
+
+.testipage li:last-child {
+    margin-right: 0;
+}
+
+.testipage  a {
+    color: #fff;
+}
+
+.testipage a.selected {
+    color: #ef743c;
+}
 
 
 

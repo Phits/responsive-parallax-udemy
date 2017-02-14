@@ -80,12 +80,15 @@ ul li {
 
 .white {
 	color: #fff;
+}
 
 .bold {
 	font-weight: bold;
 }
 
-
+.center {
+	text-align: center;
+}
 
 
 
