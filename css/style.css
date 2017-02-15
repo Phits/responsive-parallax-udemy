@@ -71,6 +71,7 @@ header nav ul li a:hover, header nav ul li a:focus {
 .img-1 {
 	background-image: url(../images/slider/slider-1.jpg);
 	background-size: auto 100%;
+	background-position: center center;
 }
 
 .slider ul.slider-carousel li a.cta-1:hover {
@@ -125,6 +126,7 @@ header nav ul li a:hover, header nav ul li a:focus {
     background-image: url(../images/portfolio/portfolio-bg.jpg);
     background-attachment: fixed;
     background-size: auto 100%;
+    background-position: center center;
 }
 
 .portfolio .inner-content {
@@ -316,6 +318,7 @@ ul.member-social-links li .fa-linkedin {
 	background-image: url(../images/testi/testi-bg.jpg);
 	background-attachment: fixed;
 	background-size: auto 100%;
+	background-position: center center;
 	color: #fff;
 }
 
@@ -405,6 +408,7 @@ blockquote:after {
 	background-color: #39787c;
     background-image: url(../images/contact/contact-bg.jpg);
     background-attachment: fixed;
+    background-position: center center;
     background-size: 100% 100%;
 	color: #fff;
 }
