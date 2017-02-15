@@ -70,7 +70,7 @@ header nav ul li a:hover, header nav ul li a:focus {
 
 .img-1 {
 	background-image: url(../images/slider/slider-1.jpg);
-	background-size: 100% 100%;
+	background-size: auto 100%;
 }
 
 .slider ul.slider-carousel li a.cta-1:hover {
@@ -124,7 +124,7 @@ header nav ul li a:hover, header nav ul li a:focus {
     color: #fff;
     background-image: url(../images/portfolio/portfolio-bg.jpg);
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: auto 100%;
 }
 
 .portfolio .inner-content {
@@ -309,11 +309,13 @@ ul.member-social-links li .fa-linkedin {
     background-color: #007bb6;
 }
 
+/* Testimonials */
+
 .testimonials {
 	background-color: #1c2731;
 	background-image: url(../images/testi/testi-bg.jpg);
 	background-attachment: fixed;
-	background-size: 100% 100%;
+	background-size: auto 100%;
 	color: #fff;
 }
 
