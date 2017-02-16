@@ -5,15 +5,17 @@
     <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width ,initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/slicknav.min.css">
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/animation.css">
 
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
     <script type="text/javascript" src="js/respond.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.js"></script>
@@ -25,8 +27,8 @@
 	<header>
         <div class="container">
         	<div class="row">
-                <a class="logo" href="#"><img src="images/logo.png" alt="logo"></a>
-                <nav>
+                <a class="logo animated" href="#" data-animation="fadeInLeft"><img src="images/logo.png" alt="logo"></a>
+                <nav class="animated" data-animation="fadeInRight">
                 	    <ul class="menu" id="menu">
                 	    	<li><a href="#">Home</a></li>
                             <li><a href="#">Services</a></li>
@@ -77,43 +79,57 @@
 
     <section class="services section-padding">
         <div class="services-header"> 
-         <h1>Services</h1>
-         <p>It is a long established fact that a reader will be distracted by the<br />readable content of a page when looking at its layout</p>
+           <div class="animated" data-animation="fadeIn">
+               <h1>Services</h1>
+               <p>It is a long established fact that a reader will be distracted by the<br />readable content of a page when looking at its layout</p>
+           </div>
         </div>
         <div class="services-content">
             <div class="container">
                 <div class="row">
                    <div class="col-md-4">
+                    <div class="animated" data-animation="fadeInLeft">
                         <p><i class="fa fa-laptop"></i></p>
                         <h3>Web Design</h3>
                         <p></p>
+                      </div>
                    </div>
                     <div class="col-md-4">
-                        <p><i class="fa fa-edit"></i></p>
-                        <h3>Graphic Design</h3>
-                        <p></p>
+                       <div class="animated" data-animation="fadeInLeft">
+                          <p><i class="fa fa-edit"></i></p>
+                          <h3>Graphic Design</h3>
+                          <p></p>
+                      </div>
                    </div>
                     <div class="col-md-4">
-                        <p><i class="fa fa-cog"></i></p>
-                        <h3>PSD to HTML/CSS</h3>
-                        <p></p>
+                       <div class="animated" data-animation="fadeInLeft">
+                          <p><i class="fa fa-cog"></i></p>
+                          <h3>PSD to HTML/CSS</h3>
+                          <p></p>
+                      </div>
                    </div>
                 </div>
                 <div class="row">
                    <div class="col-md-4">
+                    <div class="animated" data-animation="fadeInLeft">
                         <p><i class="fa fa-bars"></i></p>
                         <h3>Wordpress</h3>
                         <p></p>
+                      </div>
                    </div>
                     <div class="col-md-4">
+                      <div class="animated" data-animation="fadeInLeft">
                         <p><i class="fa fa-leaf"></i></p>
                         <h3>Theme Development</h3>
                         <p></p>
+                      </div>
                    </div>
                     <div class="col-md-4">
-                        <p><i class="fa fa-globe"></i></p>
-                        <h3>Unlimited Support</h3>
-                        <p></p>
+                       <div class="animated" data-animation="fadeInLeft">
+                          <p><i class="fa fa-globe"></i></p>
+                          <h3>Unlimited Support</h3>
+                          <p></p>
+                      </div>
                    </div>
                 </div>
             </div>
@@ -121,12 +137,15 @@
     </section>
 
     <section class="portfolio section-padding" data-stellar-background-ratio="0.25">
-         <div class="portfolio-header"> 
-         <h1 class="white">Our Works</h1>
-         <p>It is a long established fact that a reader will be distracted by the<br />readable content of a page when looking at its layout</p>
+        <div class="animated" data-animation="fadeIn">
+              <div class="portfolio-header"> 
+                 <h1 class="white">Our Works</h1>
+                 <p>It is a long established fact that a reader will be distracted by the<br />readable content of a page when looking at its layout</p>
+              </div>
           </div>
             <div class="container">
                 <div class="row">
+                  <div class="animated" data-animation="fadeInUp">
                      <ul class="portfolio-carousel">
                         <li>
                             <div class="inner-content">
@@ -192,11 +211,12 @@
                             </div>
                         </li>
                      </ul>
+                  </div>
 
-                    <div class="portfolio-nav"> 
+                  <div class="portfolio-nav"> 
                         <span id="prev" class="prev"><a href="#">&lt;</a></span>
                         <span id="next" class="next" ><a href="#">&gt;</a></span>
-                    </div>
+                  </div>
 
                 </div>
             </div>
@@ -204,12 +224,15 @@
     </section>
 
     <section class="team section-padding">
-         <div class="team-header"> 
-         <h1>Our Team</h1>
-         <p>It is a long established fact that a reader will be distracted by the<br />readable content of a page when looking at its layout</p>
-         </div>
+          <div class="animated" data-animation="fadeIn">
+             <div class="team-header"> 
+               <h1>Our Team</h1>
+               <p>It is a long established fact that a reader will be distracted by the<br />readable content of a page when looking at its layout</p>
+               </div>
+           </div>
             <div class="container">
                 <div class="row">
+                  <div class="animated" data-animation="zoomIn">
                      <ul class="team-carousel">
                         <li>
                             <div class="inner-content">
@@ -302,6 +325,7 @@
                             </div>
                         </li>
                      </ul>
+                    </div>
 
                     <div class="team-nav"> 
                         <span id="team-prev" class="team-prev"><a href="#">&lt;</a></span>
@@ -313,11 +337,13 @@
         </div>
     </section>
 
-    <section class="testimonials section-padding center" data-stellar-background-ratio="0.25">
-         <div class="testimonials-header"> 
-             <h1 class="white">Client testimonials</h1>
-             <p>It is a long established fact that a reader will be distracted by the<br />readable content of a page when looking at its layout</p>
-         </div>
+    <section class="testimonials section-padding center animated" data-stellar-background-ratio="0.25" data-animation="fadeInUp">
+          <div class="animated" data-animation="fadeIn">
+             <div class="testimonials-header"> 
+                 <h1 class="white">Client testimonials</h1>
+                 <p>It is a long established fact that a reader will be distracted by the<br />readable content of a page when looking at its layout</p>
+             </div>
+           </div>
          <ul class="testimonial-carousel">
              <li>
                 <img src="images/team/team-3.jpg">
@@ -354,41 +380,50 @@
     </section>
 
     <section class="section-padding blog">
+       <div class="animated" data-animation="fadeIn">
         <div class="blog-header center"> 
              <h1>Recent Post from Blog</h1>
              <p>It is a long established fact that a reader will be distracted by the<br />readable content of a page when looking at its layout</p>
          </div>
+       </div>
          <div class="container">
              <div class="row">
                   <div class="col-md-4">
+                    <div class="animated" data-animation="fadeInLeft">
                       <img src="images/blog/post-1.jpg" alt="post-1" class="img-responsive" />
                       <h3><a class="secondary-sky-blue" href="">Water Flowing</a></h3>
                       <p class="post-description"><i>by</i> <span class="primary bold">John</span> <i>on</i> 12 <span class="date bold">Dec 2015</b></span>
                       <p class="post-content">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages </p>
+                    </div>
                   </div>
                   <div class="col-md-4">
+                    <div class="animated" data-animation="fadeInLeft">
                       <img src="images/blog/post-2.jpg" alt="post-1" class="img-responsive" />
                       <h3><a class="secondary-sky-blue" href="">Awesome City</a></h3>
                       <p class="post-description"><i>by</i> <span class="primary bold">Alex</span> <i>on</i> 12 <span class="date bold">Dec 2015</b></span>
                       <p class="post-content">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages </p>
+                    </div>
                   </div>
                   <div class="col-md-4">
+                    <div class="animated" data-animation="fadeInLeft">
                       <img src="images/blog/post-3.jpg" alt="post-1" class="img-responsive" />
                       <h3><a class="secondary-sky-blue" href="">Beautiful Sky</a></h3>
                       <p class="post-description"><i>by</i> <span class="primary bold">Bob</span> <i>on</i> 12 <span class="date bold">Dec 2015</b></span>
                       <p class="post-content">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages </p>
+                    </div>
                   </div>
              </div>
          </div>
     </section>
 
     <section class="contact section-padding" data-stellar-background-ratio="0.25">
-          <div class="contact-header center"> 
-             <h1 class="white">Contact Us</h1>
-             <p>It is a long established fact that a reader will be distracted by the<br />readable content of a page when looking at its layout</p>
+      <div class="animated" data-animation="fadeIn">
+            <div class="contact-header center"> 
+               <h1 class="white">Contact Us</h1>
+               <p>It is a long established fact that a reader will be distracted by the<br />readable content of a page when looking at its layout</p>
+            </div>
           </div>
-
-         <form class="contact-form">
+         <form class="contact-form animated" data-animation="zoomIn">
             <fieldset>
                 <input type="text" id="name" placeholder="Name">
             </fieldset>
@@ -413,32 +448,38 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                  <h1>About Corporate</h1>
-                  <p clas="about">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                  <p><i class="fa fa-envelope"></i><span class="email">Corporate@Email.com</span></p>
-                  <p><i class="fa fa-mobile"></i><span class="mobile">(212) 555-1212</span></p>
-                  <p><i class="fa fa-location-arrow"></i><span class="location">New York, NY</span></p>
+                   <div class="animated" data-animation="fadeInLeft">
+                      <h1>About Corporate</h1>
+                      <p clas="about">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
+                      <p><i class="fa fa-envelope"></i><span class="email">Corporate@Email.com</span></p>
+                      <p><i class="fa fa-mobile"></i><span class="mobile">(212) 555-1212</span></p>
+                      <p><i class="fa fa-location-arrow"></i><span class="location">New York, NY</span></p>
+                   </div>
                 </div>
                 <div class="col-md-4">
-                   <h1>Get Blog Updates</h1>
-                   <form class="update-form">
-                       <fieldset>
-                        <input type="text" id="take-email" placeholder="Place your email here">
-                       </fieldset>
-                        <fieldset>
-                        <input type="submit" id="submit-button" placeholder="Sign-Up">
-                       </fieldset>
-                   </form>
+                   <div class="animated" data-animation="fadeInLeft">
+                       <h1>Get Blog Updates</h1>
+                       <form class="update-form">
+                           <fieldset>
+                            <input type="text" id="take-email" placeholder="Place your email here">
+                           </fieldset>
+                            <fieldset>
+                            <input type="submit" id="submit-button" placeholder="Sign-Up">
+                           </fieldset>
+                       </form>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                   <h1>Stay in Touch</h1>
-                   <ul class="footer-social-links">
-                       <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                       <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                       <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                       <li><a href=""><i class="fa fa-dribbble"></i></a></li>
-                       <li><a href=""><i class="fa fa-youtube"></i></a></li>
-                   </ul>
+                   <div class="animated" data-animation="fadeInLeft">
+                       <h1>Stay in Touch</h1>
+                       <ul class="footer-social-links">
+                           <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                           <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                           <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                           <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+                           <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                       </ul>
+                     </div>
                 </div>
             </div>
         </div>
@@ -452,6 +493,7 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script src="js/jquery.slicknav.min.js"></script>
   <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/noframework.waypoints.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 
 </body>

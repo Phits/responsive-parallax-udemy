@@ -90,7 +90,9 @@ ul li {
 	text-align: center;
 }
 
-
+.animated {
+	opacity: 0;
+}
 
 
 

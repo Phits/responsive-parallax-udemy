@@ -113,6 +113,21 @@ jQuery(document).ready(function() {
 
     $('#main').stellar();
 
+
+    $('.animated').each(function() {
+        var waypoint = new Waypoint({
+          element: this,
+          handler: function(direction) {
+            var animation = $(this.element).attr('data-animation');
+            $(this.element).css('opacity', '1');
+            $(this.element).addClass(animation);
+          },
+          offset: '75%' 
+        })
+
+    });
+
+
 });
 
 
