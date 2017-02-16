@@ -107,9 +107,11 @@ jQuery(document).ready(function() {
     
     });
 
-        $('#menu').slicknav({
-            label: ''
-        });
+    $('#menu').slicknav({
+        label: ''
+    });
+
+    $('#main').stellar();
 
 });
 
