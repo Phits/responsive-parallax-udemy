@@ -1,4 +1,7 @@
-
+.img-responsive { 
+    /* other definitions */
+    width:80%;
+}
 
 .slicknav_menu {
 	display:none;
@@ -84,6 +87,28 @@
         display: none;
     }
 
+    /* Blog */
+
+    .blog {
+    	text-align: center;
+    }
+
+    .blog img {
+    	margin: 0 auto;
+    }
+
+    /* Contact */
+
+    form.contact-form {
+	    width: 60%;
+    }
+
+    /* Footer */
+
+    footer {
+    	text-align: center;
+    }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -128,6 +153,12 @@
 	.testimonial-carousel li {
 	    margin: 0 50px;
 	}
+
+    /* Contact */
+
+    form.contact-form {
+	    width: 80%;
+    }
 
 }
 

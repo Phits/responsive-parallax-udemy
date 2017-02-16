@@ -409,7 +409,7 @@ blockquote:after {
     background-image: url(../images/contact/contact-bg.jpg);
     background-attachment: fixed;
     background-position: center center;
-    background-size: 100% 100%;
+    background-size: auto 100%;
 	color: #fff;
 }
 
@@ -435,6 +435,7 @@ input:not([type=submit]){
 }
 
 textarea {
+	height: 160px;
 	padding-top: 20px;
 	padding-left: 20px;
 }
