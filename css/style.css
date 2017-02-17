@@ -104,17 +104,14 @@ header nav ul li a:hover, header nav ul li a:focus {
    padding: 0 3px;
    height: 28px;
    line-height: 28px;
-   border: solid red 1px;
 }
 
 .slider ul.sliderpager li a {
     color: #34495e;
-    border: solid blue 1px;
 }
 
 .slider ul.sliderpager li.selected a {
     color: #e74c3c;
-    border: solid green 1px;
 }
 
 /* Services Section */

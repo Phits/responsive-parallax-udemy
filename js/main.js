@@ -12,7 +12,10 @@ jQuery(document).ready(function() {
             duration:500,
             pauseOnHover: true
         },
-        auto:true,
+        auto: {
+                pauseOnHover: 'resume',
+                progress: '.slider img'
+        },
         items:{
             visible:{
                 min:1,
