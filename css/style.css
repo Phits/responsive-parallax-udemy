@@ -74,6 +74,18 @@ header nav ul li a:hover, header nav ul li a:focus {
 	background-position: center center;
 }
 
+.img-2 {
+	background-image: url(../images/slider/day-bg.jpg);
+	background-size: auto 100%;
+	background-position: center center;
+}
+
+.img-3 {
+	background-image: url(../images/slider/night-bg.jpg);
+	background-size: auto 100%;
+	background-position: center center;
+}
+
 .slider ul.slider-carousel li a.cta-1:hover {
    background-color: #e78479;
    border-radius: 5px;
@@ -92,14 +104,17 @@ header nav ul li a:hover, header nav ul li a:focus {
    padding: 0 3px;
    height: 28px;
    line-height: 28px;
+   border: solid red 1px;
 }
 
 .slider ul.sliderpager li a {
     color: #34495e;
+    border: solid blue 1px;
 }
 
 .slider ul.sliderpager li.selected a {
     color: #e74c3c;
+    border: solid green 1px;
 }
 
 /* Services Section */
@@ -376,15 +391,15 @@ blockquote:after {
     margin-right: 5px;
 }
 
-.testipage li:last-child {
+.testipage li:last-child{
     margin-right: 0;
 }
 
-.testipage  a {
+.testipage  a{
     color: #fff;
 }
 
-.testipage a.selected {
+.testipage a.selected{
     color: #ef743c;
 }
 

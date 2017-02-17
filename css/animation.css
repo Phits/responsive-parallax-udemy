@@ -8,6 +8,10 @@
 	overflow: hidden;
 }
 
+.container, section.slider {
+	overflow: visible;
+}
+
 .services-content .row .col-md-4:nth-child(1) .animated {
 	animation-delay: 0;
 	-webkit-animation-delay: 0;

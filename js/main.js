@@ -12,7 +12,7 @@ jQuery(document).ready(function() {
             duration:500,
             pauseOnHover: true
         },
-        auto:false,
+        auto:true,
         items:{
             visible:{
                 min:1,
