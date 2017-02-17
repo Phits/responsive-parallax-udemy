@@ -87,8 +87,45 @@ footer .row .col-md-4:nth-child(3) .animated {
 	-ms-animation-delay: 0.6s;
 	-moz-animation-delay: 0.6s;
 	-o-animation-delay: 0.6s;
-}  
+} 
 
+ .services p {
+ 	 perspective: 3.5em;
+ }
+
+.services i  {
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+}
+
+.services i:hover {
+	transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+}
+
+.team li, .inner-content {
+	overflow: hidden;
+}
+
+.blog img , .team img, .inner-content img  {
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+}
+
+.team img:hover, .inner-content img:hover {
+	transform: scale(1.5, 1.5);
+	-moz-transform: scale(1.5, 1.5);
+	-ms-transform: scale(1.5, 1.5);
+	-webkit-transform: scale(1.5, 1.5);
+	-o-transform: scale(1.5, 1.5);
+}
 
 @media screen and (max-width: 992px) {
 
