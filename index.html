@@ -33,9 +33,28 @@
                   <a class="logo animated" href="#" data-animation="fadeInLeft"><img src="images/logo.png" alt="logo"></a>
                   <nav class="animated" data-animation="fadeInRight">
                         <ul class="menu" id="menu">
-                          <li><a href="#slider">Home</a></li>
-                          <li><a href="#services">Services</a></li>
-                          <li><a href="#portfolio">Our Works</a></li>
+                          <li class="active"><a href="#slider">Home</a></li>
+                          <li><a href="#services">Services</a>
+                              <div class="dropdown-content">
+                                  <ul>
+                                      <li><a href="#">Service 1</a></li>
+                                      <li><a href="#">Service 2</a></li>
+                                      <li><a href="#">Service 3</a></li>
+                                      <li><a href="#">Service 1</a></li>
+                                      <li><a href="#">Service 2</a></li>
+                                      <li><a href="#">Service 3</a></li>
+                                  </ul>
+                              </div>
+                          </li>
+                          <li><a href="#portfolio">Our Works</a>
+                              <div class="dropdown-content">
+                                  <ul>
+                                      <li><a href="#">Work 1</a></li>
+                                      <li><a href="#">Work 2</a></li>
+                                      <li><a href="#">Work 3</a></li>
+                                  </ul>
+                              </div>
+                          </li>
                           <li><a href="#team">Team</a></li>
                           <li><a href="#testimonials">Testimonials</a></li>
                           <li><a href="#contact">Contact</a></li>
@@ -446,6 +465,8 @@
             </fieldset>
          </form>
 
+         <div class="result"></div>
+
     </section>
 
     <footer>
@@ -499,7 +520,8 @@
   <script src="js/jquery.slicknav.min.js"></script>
   <script src="js/jquery.stellar.min.js"></script>
   <script src="js/noframework.waypoints.min.js"></script>
-  <script src="js/jquery.smooth-scroll.min.js"></script>
+  <!-- <script src="js/jquery.smooth-scroll.min.js"></script> -->
+   <script src="js/jquery.nav.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
   
   </div>
