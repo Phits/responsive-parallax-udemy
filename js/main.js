@@ -124,8 +124,11 @@ jQuery(document).ready(function() {
           },
           offset: '75%' 
         })
-
     });
+
+    /* Smooth Scrolling */
+
+    $('a').smoothScroll();
 
 
 });
